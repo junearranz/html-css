@@ -1,0 +1,41 @@
+
+.main-section-wrapper {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    .nuevas-colecciones-title{
+        font-size: 32px;
+        margin-left: 50px;
+    }
+
+    .nuevas-colecciones-images{
+        display: grid;
+        max-width: 67%;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+        margin: 0 auto;
+
+        .imagebox img{
+            padding: 10px;
+            border-radius: 20px;
+            transition: box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1);
+                box-shadow: 5px 5px 5px rgb(from lightgrey r g b);
+            }
+        }
+
+        .description {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            font-size: 14px;
+
+            .precio{
+                font-weight: bold;
+            }
+        }
+    }
+}

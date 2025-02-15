@@ -1,0 +1,100 @@
+
+.footer-wrapper{
+    height: 100px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #212429;
+    color: #ffffff;
+
+    .entrega-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+
+        .icon {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .description {
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .devoluciones-y-cambios-wrapper {
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+                letter-spacing: 2px;
+            }
+    }
+
+    .phone-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+
+        .icon {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .description {
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+
+    .email-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+
+        .icon {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .description {
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                letter-spacing: 2px;
+            }
+        }
+    }
+  }
